@@ -1,0 +1,12 @@
+{
+  "name": "MyFirstNode",
+  "version": "1.0.0",
+  "description": "A library to manage users, transfer methods and payments through the Hyperwallet API",
+  "main": "/Users/rrathinasabapath/IntellijWorkspace/node-sdk/src/index.js",
+  "dependencies": {
+    "node-jose": "^1.0.0",
+    "object-assign": "^4.1.0",
+    "superagent": "^4.0.0",
+    "hyperwallet-sdk": "/Users/rrathinasabapath/IntellijWorkspace/node-sdk"
+  }
+}
