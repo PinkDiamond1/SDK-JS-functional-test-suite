@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SDK-JS-functional-test-suite.iml" filepath="$PROJECT_DIR$/.idea/SDK-JS-functional-test-suite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node-sdk/node-sdk.iml" filepath="$PROJECT_DIR$/../node-sdk/node-sdk.iml" />
     </modules>
   </component>
 </project>

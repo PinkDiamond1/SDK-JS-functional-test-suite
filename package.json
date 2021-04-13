@@ -1,12 +1,17 @@
 {
-  "name": "MyFirstNode",
+  "name": "NodeFS",
   "version": "1.0.0",
-  "description": "A library to manage users, transfer methods and payments through the Hyperwallet API",
-  "main": "/Users/rrathinasabapath/IntellijWorkspace/node-sdk/src/index.js",
+  "description": "",
+  "main": "nodeJS-sdk-test.js",
   "dependencies": {
     "node-jose": "^1.0.0",
     "object-assign": "^4.1.0",
-    "superagent": "^4.0.0",
-    "hyperwallet-sdk": "/Users/rrathinasabapath/IntellijWorkspace/node-sdk"
+    "superagent": "^4.0.0"
+  },
+  "scripts": {
+    "build": "npm build",
+    "clean": "rm -rf node_modules",
+    "reinstall": "npm run clean && npm install",
+    "rebuild": "npm run clean && npm install && npm run build"
   }
 }
